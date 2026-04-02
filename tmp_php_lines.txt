@@ -1,0 +1,61 @@
+1: <?php
+19: <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.ico">
+21: <link href="<?php echo get_template_directory_uri(); ?>/assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+22: <link href="<?php echo get_template_directory_uri(); ?>/assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+24: <link href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css" id="bootstrap-style" class="theme-opt" rel="stylesheet" type="text/css">
+26: <link href="<?php echo get_template_directory_uri(); ?>/assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+27: <link href="<?php echo get_template_directory_uri(); ?>/assets/libs/@iconscout/unicons/css/line.css" rel="stylesheet" type="text/css">
+30: <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.min.css" id="color-opt" class="theme-opt" rel="stylesheet" type="text/css">
+86: <a class="logo" href="<?php echo esc_url(home_url('/')); ?>">
+87: <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/wennovate-logo.jpg'); ?>" alt="Wennovate Logo" id="brand-logo">
+92: <li><a href="<?php echo esc_url(home_url('/')); ?>" class="nav-link">Home</a></li>
+93: <li><a href="<?php echo esc_url(home_url('/#about')); ?>" class="nav-link">About</a></li>
+94: <li><a href="<?php echo esc_url(home_url('/what-to-expect/')); ?>" class="nav-link">What to Expect</a></li>
+95: <li><a href="<?php echo esc_url(home_url('/ubora-challange/')); ?>" class="nav-link">Ubora Challenge</a></li>
+96: <li><a href="<?php echo esc_url(home_url('/contact/')); ?>" class="nav-link">Contact</a></li>
+102: <a href="<?php echo esc_url(home_url('/register')); ?>" class="btn-register-navbar">Register</a>
+399: url('<?php echo get_template_directory_uri(); ?>/assets/images/event/event.jpg') center center;
+457: <a href="<?php echo esc_url(home_url('/sponsor-partner/')); ?>"
+806: src="<?php echo get_template_directory_uri(); ?>/assets/images/event/about.jpg"
+1032: <?php
+1044: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/<?php echo $speaker['img']; ?>"
+1049: <h5 class="name-v3"><?php echo $speaker['name']; ?></h5>
+1050: <p class="role-v3"><?php echo $speaker['role']; ?></p>
+1061: <?php endforeach; ?>
+1107: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/amazon.svg" alt="Amazon">
+1112: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/google.svg" alt="Google">
+1117: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/paypal.svg" alt="Paypal">
+1126: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/lenovo.svg" alt="Lenovo">
+1130: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/shopify.svg" alt="Shopify">
+1134: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/spotify.svg" alt="Spotify">
+1143: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/amazon.svg" alt="Amazon">
+1147: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/google.svg" alt="Google">
+1151: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/lenovo.svg" alt="Lenovo">
+1288: <div class="sponsor-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/amazon.svg" alt=""></div>
+1289: <div class="sponsor-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/google.svg" alt=""></div>
+1290: <div class="sponsor-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/lenovo.svg" alt=""></div>
+1291: <div class="sponsor-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/paypal.svg" alt=""></div>
+1292: <div class="sponsor-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/shopify.svg" alt=""></div>
+1293: <div class="sponsor-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/spotify.svg" alt=""></div>
+1294: <div class="sponsor-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/amazon.svg" alt=""></div>
+1295: <div class="sponsor-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/google.svg" alt=""></div>
+1296: <div class="sponsor-logo"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/client/lenovo.svg" alt=""></div>
+1712: <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/contact-detail.jpg'); ?>" alt="Event 2">
+1724: <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/contact-detail.jpg'); ?>" alt="Event 3">
+1828: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact-detail.jpg">
+1842: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact-detail.jpg">
+1856: <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact-detail.jpg">
+2195: <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/contact-detail.jpg'); ?>" alt="Event 1" class="img-rounded-custom">
+2355: <li><a href="<?php echo esc_url(home_url('/')); ?>">Home</a></li>
+2356: <li><a href="<?php echo esc_url(home_url('/#about')); ?>">About</a></li>
+2357: <li><a href="<?php echo esc_url(home_url('/what-to-expect/')); ?>">What to Expect</a></li>
+2358: <li><a href="<?php echo esc_url(home_url('/ubora-challange/')); ?>">Ubora Challenge</a></li>
+2359: <li><a href="<?php echo esc_url(home_url('/contact/')); ?>">Contact</a></li>
+2652: <script src="<?php echo get_template_directory_uri(); ?>/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+2653: <script src="<?php echo get_template_directory_uri(); ?>/assets/libs/tiny-slider/min/tiny-slider.js"></script>
+2654: <script src="<?php echo get_template_directory_uri(); ?>/assets/libs/tobii/js/tobii.min.js"></script>
+2655: <script src="<?php echo get_template_directory_uri(); ?>/assets/libs/jarallax/jarallax.min.js"></script>
+2656: <script src="<?php echo get_template_directory_uri(); ?>/assets/libs/feather-icons/feather.min.js"></script>
+2657: <script src="<?php echo get_template_directory_uri(); ?>/assets/js/plugins.init.js"></script>
+2658: <script src="<?php echo get_template_directory_uri(); ?>/assets/js/app.js"></script>
+2660: <?php wp_footer(); ?>
